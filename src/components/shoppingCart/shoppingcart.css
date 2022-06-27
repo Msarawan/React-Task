@@ -1,0 +1,14 @@
+.topbarRight {
+    margin-left: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray; 
+  }
+
+  .topbarIconItem2{
+    margin-left: 15px;
+    position: relative;
+    box-sizing: border-box;
+    padding: 15px;
+  }

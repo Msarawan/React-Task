@@ -1,0 +1,69 @@
+ 
+.rightbar {
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 75px;
+  margin-left: 24px;
+  padding: 25px;
+  height: 350px;
+  background-color:rgba(255, 228, 196, 0.377);
+  position: relative;
+  display: flex;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.rightbarLeft {
+  display:flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rightbarProfileImg {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.rightbarUsername {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 10px;
+}
+
+.line{
+  border: 1%;
+  color:rgba(128, 128, 128, 0.055);
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .rightbar{ 
+    width:40%;
+    background-color:rgba(153, 205, 50, 0.171);
+    position: relative;
+    height:70%;
+    display: block;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+.rightbarWrapper{
+  position: relative;
+}  
+}

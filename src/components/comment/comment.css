@@ -1,0 +1,44 @@
+.commentHeader{
+    width:600px;
+    border-radius: 15px;
+    padding: 25px;
+    background-color:rgba(255, 217, 0, 0.274);
+    position: relative;
+    display:block;
+    margin-top: 40px;
+    margin-left: -500px;
+}
+
+.topSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+ .icon{
+    margin-top:0 ;
+    margin-left: 90%;
+  }
+  
+  .rightbarLeft {
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .rightbarProfileImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .rightbarUsername {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 10px; 
+  } 
