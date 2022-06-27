@@ -1,0 +1,53 @@
+.topmenu {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 550px;
+    padding: 25px;
+    background-color:rgba(218, 165, 32, 0.932);
+    position: relative;
+    display:block;
+    color: black;
+  }
+  .icon2{
+    margin-left:90%;
+    margin-bottom: -2px;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .rightbarProfileImg {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+  }
+  
+  .line{
+    border: 1%;
+    color:rgba(128, 128, 128, 0.055);
+    width: 100%;
+  }
+  
+  .rightbarUsername {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 10px;
+  }
+  
+  .border{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+
+  .rightbarLeft{
+    display:flex;
+    }

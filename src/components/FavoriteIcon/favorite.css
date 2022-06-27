@@ -1,0 +1,32 @@
+.topbarContainer {
+    height:70px;
+    width: 100%;;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top:0;
+    z-index: +1;
+  }
+
+  .topbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+  }
+
+  
+  .topbarIconItem{
+    margin-right: 20px;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 80px;
+  }
+
+  .colorRed:hover{
+    background-color: red;
+    color:white;
+  }
+  
+
+

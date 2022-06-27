@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "profilePicture": "/assests/nelly.png",
+        "username": "Nelly Schwartz",
+         "desc":"I think we should meet near the Starbucks so we can get...",
+         "date":"Yesterday"
+     },
+
+     {
+        "id":2,
+        "profilePicture": "/assests/edward.png",
+        "username": "Edward Mayers",
+        "desc":"That was a real pleasure seeing you last time we really should...",
+        "date":"last week"
+     },
+     
+
+     {
+        "id":3,
+        "profilePicture": "/assests/dan.png",
+        "username": "Dan Walker",
+        "desc":"Hey there, would it be possible to borrow your bicycle, i really need...",
+        "date":"Jun 03 2018"
+     }
+]

@@ -1,0 +1,112 @@
+ .topbarContainer {
+    height:70px;
+    width: 100%;
+    background-color:rgba(220, 220, 220, 0.021);
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  .img{
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 15px;
+  }
+  
+  .topbarLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     color: gray; 
+  }
+
+  .topbarIcons {
+    display: flex;
+    font-size: small;
+    position: relative;
+    margin-top: 100px;
+
+  }
+  .topbarIconItem {
+    margin-right: 25px;
+    margin-left: 5px;
+     top:15px;
+     padding-right: 10px;
+     position: relative;
+    box-sizing: border-box;
+  }
+  .topbarIconItem1{
+    margin-right:25px;
+    margin-top: 45px;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .topbarRight {
+    margin-left: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray; 
+  }
+  .searchbar {
+    margin-top: 5px;
+    width:300px;
+    height:40px;
+    background-color:rgba(211, 211, 211, 0.438);
+    border-radius:35px;
+    display: flex;
+    align-items: center;
+  }
+ .searchIcon {
+    font-size: 25px !important;
+    margin-left: 10px;
+    color: gray;
+  }
+  .searchInput {
+    border: none;
+    width: 70%;
+  }
+  .searchInput:focus{
+    outline: none;
+  }
+
+  .topbarIconItem2{
+    margin-left:40px ;
+    position:relative;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.topbarImg {
+    margin-left: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  /* Media Queries */
+
+  @media screen and (max-width: 1200px) {
+    .topbarContainer{ 
+        background-color:white;
+        width: 50%;
+        position: fixed;
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .topbarRight{ 
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 70%;
+  }
+}
+
+
+
